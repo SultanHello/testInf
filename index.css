@@ -1,0 +1,108 @@
+.container{
+    max-width: 200px;
+    margin: auto;
+    text-align: center;
+    background: rgb(106 243 211);
+    
+    padding: 30px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 3px;
+}
+body{
+    background: rgb(148 219 209);
+}
+.resu{
+    background: rgb(37, 237, 255);
+    padding: 10px 30px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.num{
+    margin-right: 150px;
+    margin-bottom: 30px;
+    background: rgb(116 233 239);
+    padding: 5px 10px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 3px;
+    width: 50px;
+}
+button:disabled{
+    background: green;
+    
+    
+}
+.qu1{
+    display: none;
+    background: rgb(116 233 239);
+    padding: 15px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+
+
+}
+.qu2{
+    display: none;
+    background: rgb(116 233 239);
+    padding: 15px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+.qu3{
+    display: none;
+    background: rgb(116 233 239);
+    padding: 15px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+.qu4{
+    display: none;
+    background: rgb(116 233 239);
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    padding: 15px;
+}
+.qu5{
+    display: none;
+    background: rgb(116 233 239);
+    padding: 15px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+
+
+}
+.qu6{
+    display: none;
+    background: rgb(116 233 239);
+    padding: 15px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+.qu7{
+    display: none;
+    background: rgb(116 233 239);
+    padding: 15px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+.qu8{
+    display: none;
+    background: rgb(116 233 239);
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    padding: 15px;
+}
+.qu9{
+    display: none;
+    background: rgb(116 233 239);
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    padding: 15px;
+}
+.qu10{
+    display: none;
+    background: rgb(116 233 239);
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    padding: 15px;
+}
+button{
+    background: rgb(156, 141, 253);
+    border: none;
+
+    width: 160px;
+    padding: 10px 0px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
