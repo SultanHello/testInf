@@ -1,3 +1,81 @@
+let per = document.querySelector('.per')
+let per2 = document.querySelector('.per2')
+let per3 = document.querySelector('.per3')
+let perInner = document.createElement('div')
+let perInner2 = document.createElement('div')
+let perInner3 = document.createElement('div')
+
+
+per.append(perInner)
+per2.append(perInner2)
+per3.append(perInner3)
+
+
+perInner.className = 'green';
+perInner2.className ='yellow';
+perInner3.className='red'
+
+
+
+
+
+
+
+let modal = document.querySelector('.Modal')
+let modal2 = document.querySelector('.Modal2')
+let modal3 = document.querySelector('.Modal3')
+let closeModal = document.createElement('button')
+let closeModal2 = document.createElement('button')
+let closeModal3 = document.createElement('button')
+modal.append(closeModal)
+modal2.append(closeModal2)
+modal3.append(closeModal3)
+
+
+
+function doBTNclose(btn){
+    btn.style.width ='30px'
+    btn.innerText= 'x'
+    btn.style.background='none'
+    btn.style.position ='relative'
+    btn.style.left ='268px'
+    btn.style.bottom ='180px'
+    
+
+}
+doBTNclose(closeModal)
+doBTNclose(closeModal2)
+doBTNclose(closeModal3)
+
+
+
+closeModal.addEventListener('click',function(event){
+    event.preventDefault()
+    modal.style.display ='none'
+    
+})
+closeModal2.addEventListener('click',function(event){
+    event.preventDefault()
+    modal2.style.display ='none'
+    
+})
+closeModal3.addEventListener('click',function(event){
+    event.preventDefault()
+    modal3.style.display ='none'
+    
+})
+
+
+
+
+
+
+
+
+
+
+
+
 let check = document.querySelector('.war')
 let check2 = document.querySelector('.war2')
 let check3 = document.querySelector('.war3')
@@ -323,6 +401,52 @@ check10.addEventListener('click',function(event){
     result.append(elem)
 
     elem.textContent = `Дұрыс жауап : ${i+ 1} / 10`
+    if((i+1)>= 8){
+        modal.style.display = 'block'
+
+    }else if((i+1)>= 5 && (i+1) <8){
+        modal2.style.display = 'block'
+    }else if((i+1) <= 4){
+        modal3.style.display = 'block'
+
+    }
+    
+    switch(i+1){
+        case 1:
+            perInner3.textContent = '10%'
+            break;
+        case 2:
+            perInner3.textContent = '20%'
+            break;
+        case 3:
+            perInner3.textContent = '30%'
+            break;
+        case 4:
+            perInner3.textContent = '40%'
+            break;
+        case 5:
+            perInner2.textContent = '50%'
+            break;
+        case 6:
+            perInner2.textContent = '60%'
+            break;
+        case 7:
+            perInner2.textContent = '70%'
+            break;
+        case 8:
+            perInner.textContent = '80%'
+            break;
+        case 9:
+            perInner.textContent = '90%'
+            break;
+        case 10:
+            perInner.textContent = '100%'
+            break;
+        default:
+            perInner.textContent = 'hello'
+                                                                                                                                                            
+    }
+    
     
     
 })
@@ -330,12 +454,102 @@ m19.addEventListener('click',function(){
     m1.setAttribute('disabled',true)
     result.append(elem)
     elem.textContent = `Дұрыс жауап : ${i+ 1} / 10`
+    if((i+1)>= 8){
+        modal.style.display = 'block'
+
+    }else if((i+1)>= 5 && (i+1) <8){
+        modal2.style.display = 'block'
+    }else if((i+1) <= 4){
+        modal3.style.display = 'block'
+
+    }
+
+    switch(i+1){
+        case 1:
+            perInner3.textContent = '10%'
+            break;
+        case 2:
+            perInner3.textContent = '20%'
+            break;
+        case 3:
+            perInner3.textContent = '30%'
+            break;
+        case 4:
+            perInner3.textContent = '40%'
+            break;
+        case 5:
+            perInner2.textContent = '50%'
+            break;
+        case 6:
+            perInner2.textContent = '60%'
+            break;
+        case 7:
+            perInner2.textContent = '70%'
+            break;
+        case 8:
+            perInner.textContent = '80%'
+            break;
+        case 9:
+            perInner.textContent = '90%'
+            break;
+        case 10:
+            perInner.textContent = '100%'
+            break;
+        default:
+            perInner.textContent = 'hello'
+                                                                                                                                                            
+    }
     
 })
 m20.addEventListener('click',function(){
     m1.setAttribute('disabled',true)
     result.append(elem)
     elem.textContent = `Дұрыс жауап : ${i+ 1} / 10`
+    if((i+1)>= 8){
+        modal.style.display = 'block'
+
+    }else if((i+1)>= 5 && (i+1) <8){
+        modal2.style.display = 'block'
+    }else if((i+1) <= 4){
+        modal3.style.display = 'block'
+
+    }
+    
+    switch(i+1){
+        case 1:
+            perInner3.textContent = '10%'
+            break;
+        case 2:
+            perInner3.textContent = '20%'
+            break;
+        case 3:
+            perInner3.textContent = '30%'
+            break;
+        case 4:
+            perInner3.textContent = '40%'
+            break;
+        case 5:
+            perInner2.textContent = '50%'
+            break;
+        case 6:
+            perInner2.textContent = '60%'
+            break;
+        case 7:
+            perInner2.textContent = '70%'
+            break;
+        case 8:
+            perInner.textContent = '80%'
+            break;
+        case 9:
+            perInner.textContent = '90%'
+            break;
+        case 10:
+            perInner.textContent = '100%'
+            break;
+        default:
+            perInner.textContent = 'hello'
+                                                                                                                                                            
+    }
     
 })
 
