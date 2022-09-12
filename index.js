@@ -322,20 +322,20 @@ check10.addEventListener('click',function(event){
     
     result.append(elem)
 
-    elem.textContent = `Праввильно : ${i+ 1} из 10`
+    elem.textContent = `Дұрыс жауап : ${i+ 1} / 10`
     
     
 })
 m19.addEventListener('click',function(){
     m1.setAttribute('disabled',true)
     result.append(elem)
-    elem.textContent = `Праввильно : ${i+ 1} из 10`
+    elem.textContent = `Дұрыс жауап : ${i+ 1} / 10`
     
 })
 m20.addEventListener('click',function(){
     m1.setAttribute('disabled',true)
     result.append(elem)
-    elem.textContent = `Праввильно : ${i+ 1} из 10`
+    elem.textContent = `Дұрыс жауап : ${i+ 1} / 10`
     
 })
 
