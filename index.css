@@ -17,6 +17,7 @@ body{
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
+    font-size: 12px
 }
 .num{
     margin-right: 150px;
@@ -25,7 +26,7 @@ body{
     padding: 5px 10px;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 3px;
-    width: 50px;
+    width: 80px;
 }
 button:disabled{
     background: green;
